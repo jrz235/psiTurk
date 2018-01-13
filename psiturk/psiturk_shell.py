@@ -1178,7 +1178,7 @@ class PsiturkNetworkShell(PsiturkShell):
         ad_content = {
             'psiturk_external': True,
             'server': ip_address,
-            'port': port,
+            'port': 80,
             'browser_exclude_rule': str(self.config.get('HIT Configuration', 'browser_exclude_rule')),
             'is_sandbox': int(self.sandbox),
             'ad_html': ad_html,
